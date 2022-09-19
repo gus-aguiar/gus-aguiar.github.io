@@ -5,54 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <style>
-        body{
-            background-color: #363537;
-        }
-        #nome {
-            color: #A682FF;
-            font-family: helvetica,Arial, Helvetica, sans-serif;
-        }
-        #descricao{
-            font-family: Arial, Helvetica, sans-serif;
-        }
-        #nacionalidade{
-            font-weight: 100;
-            font-family: helvetica;
-        }
-        #premiere{
-            font-size: 1.1em;
-        }    
-        #davinci{
-            font-size: 1.2em;
-        }#audition{
-            font-size: 1.3em;
-        }#roteiro{
-            font-size: 1.4em;
-        }
-        #fotominha{border-radius: 20%;}
-        .links{text-decoration: none; color:#715AFF ;}
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 id="nome">Gustavo Prates Mendes de Aguiar</h1><br>
+    <h1 id="nome">Gustavo Aguiar</h1><br>
+        <div class="imagecontainer">
     <img src="images/foto.jpeg" alt="Gustavo olhando para a câmera" width="200" id="fotominha"> <br>
-    <p id="descricao"><strong> Doze anos de audiovisual</strong>, pivotando a carreira na direção <em>dev</em><br>
-    <p id="nacionalidade">Brasileiro, 32 anos, Florianopolitano.</p><br></id>
+        <p id="descricao"><strong> Doze anos de audiovisual</strong>, pivotando a carreira na direção <em>dev</em><br>
+        </div>
+        <div class="resto">
+        <p id="nacionalidade">Brasileiro, 32 anos, Florianopolitano.</p><br></id>
     <ul id="habilidades">
         <li id="premiere">Adobre Premiere</li>
         <li id="davinci">Davinci Resolve</li>
         <li id="audition">Adobe Audition</li>
-        <li id="roteiro">Roteirização e direção</li>
-    </ul><br>
+        <li id="roteiro">Roteirização e direção</li>    
+    </ul>
+    <br>
     <a class="links" href="#fotominha">link para minha foto</a><br>
     <a class="links" href="https://www.linkedin.com/in/gustavo-aguiar-b465a358/" target="_blank">Linkedin</a><br>
-    <ul>
+    <ul id="listalinks">
         <li><a class="links" href="#nome">nome</a><br></li>
         <li><a class="links" href="#fotominha">foto</a><br></li>
         <li><a class="links" href="#descricao">descrição</a><br></li>
         <li><a class="links" href="#habilidades">habilidades </a><br></li>
     </ul><br>
+    </div>
 
 </body>
 </html>

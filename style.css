@@ -1,0 +1,57 @@
+body{
+    background-color: #363537;
+    padding: 3%;
+}
+#nome {
+    color: #A682FF;
+    font-family: helvetica,Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#descricao{
+    font-family: Arial, Helvetica, sans-serif;
+    top:150px;
+    left: 230px;
+    
+}
+#nacionalidade{
+    font-weight: 80;
+    font-family: helvetica;
+    font-size: 10px;
+    top: 1px;
+    left: 30px;
+    position: relative;
+}
+#premiere{
+    font-size: 1.1em;
+}    
+#davinci{
+    font-size: 1.2em;
+}#audition{
+    font-size: 1.3em;
+}#roteiro{
+    font-size: 1.4em;
+}
+#fotominha{
+    border-radius: 20%; 
+    height: auto;
+    float: left; 
+    padding: 5px;
+}
+
+.links{
+    text-decoration: none; 
+    color:#715AFF ;
+}
+
+.imagecontainer{
+    position: absolute;
+    width: 200;
+}
+.resto{
+    position: absolute;
+    top: 340px;
+}
+#listalinks{
+    text-decoration: none;
+    background-color: #363537;
+}
