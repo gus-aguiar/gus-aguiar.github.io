@@ -55,3 +55,9 @@ body{
     text-decoration: none;
     background-color: #363537;
 }
+#habilidades{
+    display: inline-block;
+}
+#listalinks{
+    display: inline-block;
+}
